@@ -1,0 +1,5 @@
+DEBUG    root:mysql_utils.py:6 连接数据库 localhost
+DEBUG    root:base_api.py:19 GET /api/contacts
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): localhost:8080
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:8080 "GET /api/contacts HTTP/1.1" 200 6938
+INFO     root:mysql_utils.py:20 查询SQL：select count(id) as total from contacts 结果 [{'total': 3}]

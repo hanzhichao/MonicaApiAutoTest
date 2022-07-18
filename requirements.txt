@@ -1,0 +1,12 @@
+requests
+pytest
+pyyaml
+pymysql
+allure-pytest
+pytest-timeout
+pytest-level
+pytest-owner
+pytest-check
+pytest-faker
+pytest-ini
+pytest-xdist
